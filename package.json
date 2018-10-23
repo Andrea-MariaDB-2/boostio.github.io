@@ -1,0 +1,38 @@
+{
+  "name": "boostio.github.io",
+  "version": "1.0.0",
+  "description": "BoostIO Homepage",
+  "main": "index.js",
+  "scripts": {
+    "start": "hs out",
+    "build": "next build && next export",
+    "dev": "next dev",
+    "lint": "eslint **/*.js",
+    "deploy": "sh scripts/deploy.sh"
+  },
+  "keywords": [],
+  "author": "Junyoung Choi <fluke8259@gmail.com> (https://github.com/rokt33r)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.5.0",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^3.1.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-inline-dotenv": "^1.1.2",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "http-server": "^0.11.1"
+  }
+}
